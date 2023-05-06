@@ -1,0 +1,103 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color:#34495e;
+}
+
+body {
+  background-color: #95a5a6;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #34495e;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+#profile-picture {
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+  border: solid 5px #34495e;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#full-name {
+
+}
+
+button {
+  width: 70px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10%;
+  border: 0px;
+  background-color: #e74c3c;
+  border-style: none;
+}
+
+
+
+#left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  padding: 10px;
+  border: solid 2px #34495e;
+}
+
+#right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  padding: 8%;
+  border: solid 2px #34495e;
+}
+
+#main {
+  display: flex;
+}
+
+footer {
+  background-color: #34495e;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+
+}
+
+.footer-boxes {
+  flex: 1;
+  display: flex;
+}
+
+#footer-1 {
+  justify-content: baseline;
+}
+
+#footer-2 {
+  justify-content: center;
+}
+
+#footer-3 {
+  justify-content: end;
+}
+
+
